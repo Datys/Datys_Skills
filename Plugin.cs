@@ -95,14 +95,15 @@ namespace Datys_Skills
             //SFX
             GameObject D_sfx_sword_hit = ItemManager.PrefabManager.RegisterPrefab("datys_skills", "D_sfx_sword_hit");
             CustomSE D_AbilityCooldown_1 = new("datys_skills", "D_AbilityCooldown_1"); 
+            CustomSE D_Ability_Start = new("datys_skills", "D_Ability_Start"); 
             GameObject D_sfx_Start_Ability = ItemManager.PrefabManager.RegisterPrefab("datys_skills", "D_sfx_Start_Ability");
             GameObject D_sfx_kromsword_swing = ItemManager.PrefabManager.RegisterPrefab("datys_skills", "D_sfx_kromsword_swing");
             GameObject D_fx_block_camshake1 = ItemManager.PrefabManager.RegisterPrefab("datys_skills", "D_fx_block_camshake1");
             GameObject D_fx_hit_camshake1 = ItemManager.PrefabManager.RegisterPrefab("datys_skills", "D_fx_hit_camshake1");
             GameObject D_fx_swing_camshake1 = ItemManager.PrefabManager.RegisterPrefab("datys_skills", "D_fx_swing_camshake1");
             GameObject D_sfx_meat_hit1 = ItemManager.PrefabManager.RegisterPrefab("datys_skills", "D_sfx_meat_hit1");
-            GameObject D_vfx_Meatblood1 = ItemManager.PrefabManager.RegisterPrefab("datys_skills", "D_vfx_Meatblood1");
-            
+            GameObject D_vfx_Meatblood1 = ItemManager.PrefabManager.RegisterPrefab("datys_skills", "D_vfx_Meatblood1"); 
+            GameObject D_VFX_Attack_Ground = ItemManager.PrefabManager.RegisterPrefab("datys_skills", "D_VFX_Attack_Ground");
             //Items
             Item D_Sword_Snake = new("datys_skills", "D_Sword_Snake");
             D_Sword_Snake.Configurable = Configurability.Disabled;

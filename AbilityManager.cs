@@ -13,9 +13,9 @@ namespace Datys_Skills
         public static void Init()
         {
             // Pro meč "D_Sword_Baldur" přiřaď dvě ability:
-            weaponAbilities["D_Sword_Baldur"] = (new SwingAbility(), new DashAbility());
-            weaponAbilities["D_Sword_Snake"] = (new SwingAbility(), null);
-            
+            weaponAbilities["D_Sword_Baldur"] = (new SwingAbility(), new GroundStrikeAbility());
+            weaponAbilities["D_Sword_Snake"] = (new SwingAbility(), new GroundStrikeAbility());
+            weaponAbilities["BattleaxeCrystal"] = (new SwingAbility(), new GroundStrikeAbility());
             // Pro meč "SwordIron": nastavíme ability1 na Swing, ability2 necháme null.
             weaponAbilities["SwordIron"] = (new SwingAbility(), null);
     

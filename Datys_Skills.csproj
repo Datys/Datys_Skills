@@ -155,6 +155,7 @@
         <Compile Include="Plugin.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="Skilly\DashAbility.cs" />
+        <Compile Include="Skilly\GroundStrike.cs" />
         <Compile Include="Skilly\SwingAbility.cs" />
         <Compile Include="VersionHandshake.cs"/>
         <Compile Include="WeaponAbilityPatch.cs" />
